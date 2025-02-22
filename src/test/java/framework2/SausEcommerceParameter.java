@@ -14,7 +14,7 @@ public class SausEcommerceParameter extends BaseClass{
 	String productName;
 	String Username;
 	String Password;
-	//Modified comment just for jenkins triggers.
+	//Modified comment just for jenkins triggers..
 	//@Test(dataProvider="getData",retryAnalyzer=RetryTest.class)
 	@Test(dataProvider="getData")
 	public void submitOrder(String un, String pw, String product) throws InterruptedException {
